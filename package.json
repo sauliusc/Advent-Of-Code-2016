@@ -1,0 +1,11 @@
+{
+  "name": "advent-of-code2016",
+  "version": "0.0.0",
+  "description": "AdventOfCode2016",
+  "main": "app.js",
+  "author": {
+    "name": "saulius",
+    "url": "http://saulius.cebanauskai.lt",
+    "email": "saulius@cebanauskai.lt"
+  }
+}
