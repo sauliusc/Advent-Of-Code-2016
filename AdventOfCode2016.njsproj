@@ -32,6 +32,7 @@
   <ItemGroup>
     <Compile Include="app.js" />
     <Compile Include="Days\Day1.js" />
+    <Compile Include="Days\Day2.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
