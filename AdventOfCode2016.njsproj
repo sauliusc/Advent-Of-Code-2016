@@ -31,13 +31,18 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="Data\Day3Data.txt" />
     <Compile Include="Days\Day1.js" />
     <Compile Include="Days\Day2.js" />
+    <Compile Include="Days\Day3.js" />
+    <Compile Include="Days\DayTemplate.js" />
+    <Content Include="Data\Day3DataSample.txt" />
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Days\" />
+    <Folder Include="Data\" />
     <Folder Include="typings\" />
     <Folder Include="typings\globals\" />
     <Folder Include="typings\globals\node\" />
