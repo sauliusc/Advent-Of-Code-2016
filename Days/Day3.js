@@ -2,7 +2,7 @@
     const util = require('util');
     const fs = require('fs');
     var input = fs.readFileSync('./Data/Day3Data.txt', 'utf8');
-    //var input = fs.readFileSync('./Data/Day3DataSample.txt', 'utf8').trim();
+    //var input = fs.readFileSync('./Data/Day3DataSample.txt', 'utf8');
     var inputLines = input.split('\r\n');
 
     this.part1 = function () {
