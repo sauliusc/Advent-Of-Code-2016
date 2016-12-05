@@ -1,6 +1,7 @@
 ﻿module.exports = function Day5() {
     const util = require('util');
     var crypto = require('crypto');
+    var Stopwatch = require("node-stopwatch").Stopwatch;
     //var input = 'abc';
     var input = 'ojvtpuvg';
     function hashValid(input) {
@@ -13,6 +14,8 @@
     }
 
     this.part1 = function () {
+        var stopwatch = Stopwatch.create();
+        stopwatch.start();
         var value = 0;
         var currentLength = 0;
         var result = '';
@@ -28,9 +31,12 @@
             }
             value++;
         }
-        console.log(util.format('Day 5 part 1 answer: %s', result));
+        stopwatch.stop();
+        console.log(util.format('Day 5 part 1 answer: %s. Total duration:%s', result, stopwatch.elapsedMilliseconds));
     }
     this.part2 = function () {
+        var stopwatch = Stopwatch.create();
+        stopwatch.start();
         var value = 0;
         var currentLength = 0;
         var result = new Array(9).join('_').split('');
@@ -49,6 +55,7 @@
             }
             value++;
         }
-        console.log(util.format('Day 5 part 1 answer: %s', result.join('')));
+        stopwatch.stop();
+        console.log(util.format('Day 5 part 1 answer: %s. Total duration:%s', result.join(''), stopwatch.elapsedMilliseconds));
     }
 }
