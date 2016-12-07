@@ -1,11 +1,19 @@
 ﻿module.exports = function DayT() {
-    const util = require('util');
-    var input = '';
+    const fs = require('fs');
+    var Stopwatch = require("node-stopwatch").Stopwatch;
+    var input = fs.readFileSync('./Data/Day6Data.txt', 'utf8').trim();
+    //var input = '';
     var inputLines = input.split('\n');
     this.part1 = function () {
-        console.log(util.format('Day T part 1 answer: %s', 123));
+        var stopwatch = Stopwatch.create();
+        stopwatch.start();
+        stopwatch.stop();
+        console.log(util.format('Day T part 1 answer: %s. Total duration: %s ms', 123, stopwatch.elapsedMilliseconds));
     }
     this.part2 = function () {
-        console.log(util.format('Day T part 2 answer: %s', 321));
+        var stopwatch = Stopwatch.create();
+        stopwatch.start();
+        stopwatch.stop();
+        console.log(util.format('Day T part 1 answer: %s. Total duration: %s ms', 321, stopwatch.elapsedMilliseconds));
     }
-}
+}}

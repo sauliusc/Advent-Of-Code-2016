@@ -30,7 +30,12 @@
 //day5.part1();
 //day5.part2();
 //-----------
-var Day6 = require('./Days/Day6');
-var day6 = new Day6();
-day6.part1();
-day6.part2();
+//var Day6 = require('./Days/Day6');
+//var day6 = new Day6();
+//day6.part1();
+//day6.part2();
+//-----------
+var Day7 = require('./Days/Day7');
+var day7 = new Day7();
+day7.part1();
+day7.part2();
