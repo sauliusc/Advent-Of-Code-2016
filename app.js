@@ -35,7 +35,12 @@
 //day6.part1();
 //day6.part2();
 //-----------
-var Day7 = require('./Days/Day7');
-var day7 = new Day7();
-day7.part1();
-day7.part2();
+//var Day7 = require('./Days/Day7');
+//var day7 = new Day7();
+//day7.part1();
+//day7.part2();
+//-----------
+var Day8 = require('./Days/Day8');
+var day8 = new Day8();
+day8.part1();
+day8.part2();
