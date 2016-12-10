@@ -1,5 +1,6 @@
 ﻿module.exports = function DayT() {
     const fs = require('fs');
+    const util = require('util');
     var Stopwatch = require("node-stopwatch").Stopwatch;
     var input = fs.readFileSync('./Data/Day6Data.txt', 'utf8').trim();
     //var input = '';

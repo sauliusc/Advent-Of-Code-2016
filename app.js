@@ -45,6 +45,11 @@
 //day8.part1();
 //day8.part2();
 //-----------
+var Day9 = require('./Days/Day9');
+var day9 = new Day9();
+day9.part1();
+day9.part2();
+//-----------
 var Day10 = require('./Days/Day10');
 var day10 = new Day10();
 day10.part1();
