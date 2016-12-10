@@ -9,6 +9,7 @@
     "email": "saulius@cebanauskai.lt"
   },
   "dependencies": {
+    "bufferjs": "^3.0.1",
     "node-stopwatch": "0.0.1"
   }
 }
