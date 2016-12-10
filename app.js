@@ -50,7 +50,7 @@ var day9 = new Day9();
 day9.part1();
 day9.part2();
 //-----------
-var Day10 = require('./Days/Day10');
-var day10 = new Day10();
-day10.part1();
-day10.part2();
+//var Day10 = require('./Days/Day10');
+//var day10 = new Day10();
+//day10.part1();
+//day10.part2();
