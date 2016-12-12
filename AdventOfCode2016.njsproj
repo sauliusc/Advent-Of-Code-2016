@@ -42,8 +42,11 @@
     <Compile Include="Days\Day7.js" />
     <Compile Include="Days\Day8.js" />
     <Compile Include="Days\Day9.js" />
+    <Compile Include="Days\Day12.js" />
     <Compile Include="Days\DayTemplate.js" />
+    <Content Include="Data\Day12Data.txt" />
     <Content Include="Data\Day10Data.txt" />
+    <Content Include="Data\Day12DataSample.txt" />
     <Content Include="Data\Day10DataSample.txt" />
     <Content Include="Data\Day6Data.txt" />
     <Content Include="Data\Day8Data.txt" />

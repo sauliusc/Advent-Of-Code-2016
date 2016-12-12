@@ -4,7 +4,7 @@
     var Stopwatch = require("node-stopwatch").Stopwatch;
     var input = fs.readFileSync('./Data/Day6Data.txt', 'utf8').trim();
     //var input = '';
-    var inputLines = input.split('\n');
+    var inputLines = input.split('\r\n');
     this.part1 = function () {
         var stopwatch = Stopwatch.create();
         stopwatch.start();
@@ -17,4 +17,4 @@
         stopwatch.stop();
         console.log(util.format('Day T part 1 answer: %s. Total duration: %s ms', 321, stopwatch.elapsedMilliseconds));
     }
-}}
+}
