@@ -59,7 +59,13 @@
 //var day11 = new Day11();
 //day11.part1();
 //day10.part2();
-var Day12 = require('./Days/Day12');
-var day12 = new Day12();
-day12.part1();
-day12.part2();
+//-----------
+//var Day12 = require('./Days/Day12');
+//var day12 = new Day12();
+//day12.part1();
+//day12.part2();
+//-----------
+var Day13 = require('./Days/Day13');
+var day13 = new Day13();
+day13.part1();
+day13.part2();

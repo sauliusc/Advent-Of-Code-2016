@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/0c9f62f58db0285e290e72dfcd392a7b56610619/pathfinding/pathfinding.d.ts",
+    "raw": "registry:dt/pathfinding#0.0.0+20160829112816",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/0c9f62f58db0285e290e72dfcd392a7b56610619/pathfinding/pathfinding.d.ts"
+  }
+}

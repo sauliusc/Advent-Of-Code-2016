@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "bufferjs": "^3.0.1",
-    "node-stopwatch": "0.0.1"
+    "node-stopwatch": "0.0.1",
+    "pathfinding": "^0.4.18"
   }
 }
