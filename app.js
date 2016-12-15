@@ -70,7 +70,12 @@
 //day13.part1();
 //day13.part2();
 //-----------
-var Day14 = require('./Days/Day14');
-var day14 = new Day14();
-day14.part1();
-day14.part2();
+//var Day14 = require('./Days/Day14');
+//var day14 = new Day14();
+//day14.part1();
+//day14.part2();
+//-----------
+var Day15 = require('./Days/Day15');
+var day15 = new Day15();
+day15.part1();
+day15.part2();
