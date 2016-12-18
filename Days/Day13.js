@@ -18,7 +18,7 @@
             for (var x = 0; x < size; x++) {
                 var number = (x * x) + (3 * x) + (2 * x * y) + y + (y * y) + input;
                 var binary = (number >>> 0).toString(2);
-                var oneCount = binary.split('').reduce(function (n, val) { return n += ((val === '1') ? 1 : 0); }, 0);
+                var oneCount = binary.countLetter('1');
                 matrix[y][x] = (oneCount % 2 == 0) ? 0 : 1;
             }
         }

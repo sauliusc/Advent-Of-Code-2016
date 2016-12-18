@@ -47,7 +47,9 @@
     <Compile Include="Days\Day14.js" />
     <Compile Include="Days\Day15.js" />
     <Compile Include="Days\Day16.js" />
+    <Compile Include="Days\Day18.js" />
     <Compile Include="Days\DayTemplate.js" />
+    <Compile Include="Utils\Extensions.js" />
     <Content Include="Data\Day15Data.txt" />
     <Content Include="Data\Day15DataSample.txt" />
     <Content Include="Data\Day12Data.txt" />
@@ -71,6 +73,7 @@
   <ItemGroup>
     <Folder Include="Days\" />
     <Folder Include="Data\" />
+    <Folder Include="Utils\" />
     <Folder Include="typings\" />
     <Folder Include="typings\globals\" />
     <Folder Include="typings\globals\node\" />

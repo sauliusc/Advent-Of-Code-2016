@@ -19,7 +19,7 @@
             var repeations = [];
             //statistics of letter repeation
             uniqueLetters.split('').forEach(function (letter) {
-                var count = letters.split('').reduce(function (n, val) { return n += ((val === letter) ? 1 : 0); }, 0); 
+                var count = letters.countLetter(letter);
                 repeations.push({ l: letter, lcount: count});
             });
             //sort letters by repeation and alphabetically
