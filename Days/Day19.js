@@ -30,12 +30,12 @@
             elfes = newArray;
         }
         stopwatch.stop();
-        console.log(util.format('Day T part 1 answer: %s. Total duration: %s ms', elfes[0], stopwatch.elapsedMilliseconds));
+        console.log(util.format('Day 19 part 1 answer: %s. Total duration: %s ms', elfes[0], stopwatch.elapsedMilliseconds));
     }
     this.part2 = function () {
         var stopwatch = Stopwatch.create();
         stopwatch.start();
         stopwatch.stop();
-        console.log(util.format('Day T part 1 answer: %s. Total duration: %s ms', 321, stopwatch.elapsedMilliseconds));
+        console.log(util.format('Day 19 part 2 answer: %s. Total duration: %s ms', 321, stopwatch.elapsedMilliseconds));
     }
 }

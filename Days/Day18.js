@@ -38,13 +38,13 @@
         stopwatch.start();
         var totalSafe = getTotalSafeTiles(38);
         stopwatch.stop();
-        console.log(util.format('Day 17 part 1 answer: %s. Total duration: %s ms', totalSafe, stopwatch.elapsedMilliseconds));
+        console.log(util.format('Day 18 part 1 answer: %s. Total duration: %s ms', totalSafe, stopwatch.elapsedMilliseconds));
     }
     this.part2 = function () {
         var stopwatch = Stopwatch.create();
         stopwatch.start();
         var totalSafe = getTotalSafeTiles(400000);
         stopwatch.stop();
-        console.log(util.format('Day 17 part 2 answer: %s. Total duration: %s ms', totalSafe, stopwatch.elapsedMilliseconds));
+        console.log(util.format('Day 18 part 2 answer: %s. Total duration: %s ms', totalSafe, stopwatch.elapsedMilliseconds));
     }
 }
