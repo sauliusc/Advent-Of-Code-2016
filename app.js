@@ -91,7 +91,12 @@ require('./Utils/Extensions')
 //day17.part1();
 //day17.part2();
 //-----------
-var Day18 = require('./Days/Day18');
-var day18 = new Day18();
-day18.part1();
-day18.part2();
+//var Day18 = require('./Days/Day18');
+//var day18 = new Day18();
+//day18.part1();
+//day18.part2();
+//-----------
+var Day19 = require('./Days/Day19');
+var day19 = new Day19();
+day19.part1();
+day19.part2();
