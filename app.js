@@ -100,3 +100,8 @@ require('./Utils/Extensions')
 //var day19 = new Day19();
 //day19.part1();
 //day19.part2();
+//-----------
+var Day20 = require('./Days/Day20');
+var day20 = new Day20();
+day20.part1();
+day20.part2();
